@@ -1,0 +1,13 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch",
+    "prettier": "npm install -D prettier prettier-plugin-tailwindcss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
